@@ -16,7 +16,7 @@
     This will remove all the old changes and will make the new changes in `upstream` to be reflected in the local repo
     - If you want to update the remote forked repo or clean the deleted branches, you can also use `git fetch origin --prune`
     - You'll use `git fetch --all --prune` to synchronize all the remote repositories
-14. If you want to update the forked local repo with the latest changes, then use `git pull upstream <branch_name>`
+14. If you want to update the forked local repo with the latest changes; first, place in the branch you wanna update and use `git pull upstream <branch_name>`
 15. Lastly, you should use `git push origin <branch_name>` to push the changes to the forked repo
 
 <br>
@@ -35,11 +35,9 @@
 10. If the owner is okay with the changes, then he/she will merge the pull request
 11. If you want to delete the branch locally, then use `git branch -d <branch_name>`
 12. If you want to delete the branch remotely, then use `git push origin --delete <branch_name>`
-13. Click `Sync fork` in the forked repo from GitHub
-14. Use `git fetch upstream --prune` and `git fetch origin --prune`
-15. Use `git pull origin main` to update the local forked repo with the latest changes
-16. Make your new features and `git push origin <branch_name>`
-17. Make a PR
+13. Get on the main or the branch you want to update and click `Sync Fork` on your remote forked repo
+14. Do `git checkout main` or the branch you want to update and `git pull origin main`  to be up to date in your local repo
+15. Get on the branch you wanna work on and keep making changes
 
 <br>
 
