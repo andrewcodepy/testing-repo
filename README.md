@@ -19,6 +19,8 @@
 14. If you want to update the forked local repo with the latest changes, then use `git pull upstream <branch_name>`
 15. Lastly, you should use `git push origin <branch_name>` to push the changes to the forked repo
 
+<br>
+
 ## Steps to take to do it from GitHub
 
 1. Fork the repo
@@ -38,6 +40,8 @@
 15. Use `git pull origin main` to update the local forked repo with the latest changes
 16. Make your new features and `git push origin <branch_name>`
 17. Make a PR
+
+<br>
 
 ## Delete Last Commit
 
